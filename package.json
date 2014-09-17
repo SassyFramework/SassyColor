@@ -1,0 +1,40 @@
+{
+  "name": "SassyColor",
+  "version": "0.0.1",
+  "description": "Just a Color Helper/Toolkit for your Sass Project.",
+  "main": "gulpfile.js",
+  "directories": {
+    "example": "example",
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/SassyFramework/SassyColor"
+  },
+  "keywords": [
+    "sass",
+    "sassy",
+    "sassy framework",
+    "color",
+    "schemer"
+  ],
+  "author": "john gerome baldonado",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/SassyFramework/SassyColor/issues"
+  },
+  "homepage": "https://github.com/SassyFramework/SassyColor",
+  "devDependencies": {
+    "browser-sync": "^1.3.6",
+    "gulp": "^3.8.8",
+    "gulp-filter": "^1.0.2",
+    "gulp-minify-css": "^0.3.8",
+    "gulp-plumber": "^0.6.5",
+    "gulp-rename": "^1.2.0",
+    "gulp-ruby-sass": "^0.7.1",
+    "gulp-util": "^3.0.1"
+  }
+}

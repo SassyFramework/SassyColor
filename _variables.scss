@@ -1,0 +1,32 @@
+
+// -----------------------------------------------------------------------------
+// #COLOR-SCHEMER
+// -----------------------------------------------------------------------------
+
+$cs-primary           : #E86EA4 !default;
+$cs-scheme            : mono !default;   // mono, complement, triad, tetrad, analogic, accented-analogic
+$cs-hue-offset        : 30 !default;
+$cs-brightness-offset : false !default;
+$cs-color-model       : rgb !default;    // rgb, ryb
+$cs-colorblind        : normal !default;
+$cs-harmonize-mode    : null !default;
+$cs-harmonize-color   : $cs-primary !default;
+$cs-harmonize-amount  : 10% !default;
+
+
+
+
+
+
+// -----------------------------------------------------------------------------
+// #COLOR-CONTRAST
+// -----------------------------------------------------------------------------
+
+$color-text--dark: #000 !default;
+$color-text--light: #fff !default;
+
+
+$color-success: #43AC6A;
+$color-info: #A0D3E8;
+$color-warning: #F08A24;
+$color-alert: #F04124;

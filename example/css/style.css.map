@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAoBY,qOAAW;ECRnB,KAAK,EAAE,GAAG;EACV,OAAO,EAAE,IAAI;EACb,MAAM,EAAE,IAAI;EACZ,KAAK,EAAE,IAAI;EACX,UAAU,EAAE,MAAM;;ACKD,UAAwE;EAC7E,KAAY,EDDb,KAAK;;ACAC,UAAwE;EAC7E,MAAY,EDAb,MAAO;;AAGlB,kBAAQ;EACJ,WAAW,EAAE,EAAE;;;ACLF,uCAAwE;EAC7E,UAAY,ECVJ,OAAW;;ADSd,iIAAwE;EAC7E,KAAY,ECET,IAAI;;;ADHF,oBAAwE;EAC7E,UAAY,EAAE,OAAM;;AADf,kGAAwE;EAC7E,KAAY,ECGR,IAAI;;;ADJH,mBAAwE;EAC7E,UAAY,EAAE,OAAM;;;AADf,yCAAwE;EAC7E,UAAY,EAAE,OAAM;;;AADf,qBAAwE;EAC7E,UAAY,EAAE,OAAM;;;AADf,oBAAwE;EAC7E,UAAY,EAAE,OAAM;;;AADf,cAAwE;EAC7E,UAAY,ECMZ,OAAO;;;ADPF,cAAwE;EAC7E,UAAY,ECQZ,OAAO;;;ADTF,WAAwE;EAC7E,UAAY,ECOf,OAAO;;;ADRC,YAAwE;EAC7E,UAAY,ECSd,OAAO",
+"sources": ["../../../home/gerome/www/github/SassyColor/bower_components/sassyplaceholder/_mixins.scss","../style.scss","../../../home/gerome/www/github/SassyColor/bower_components/sassycache/_mixins.scss","../../../home/gerome/www/github/SassyColor/_variables.scss"],
+"names": [],
+"file": "style.css"
+}

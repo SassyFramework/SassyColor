@@ -1,0 +1,24 @@
+// Credits: http://codepen.io/bluesaunders/details/FCLaz
+
+// For loop inumerator
+$num: 0;
+
+// Calculeate brightness of a given color.
+@function sf-color-brightness($color) {
+  @return ((red($color) * .299) + (green($color) * .587) + (blue($color) * .114)) / 255 * 100%;
+}
+
+
+// Compares contrast of a given color to the light/dark arguments and returns whichever is most "contrasty"
+@function sf-color-contrast($color, $dark: $color-text--dark, $light: $color-text--light) {
+  @if $color == null {
+    @return null;
+  }
+  @else {
+    $color-brightness: sf-color-brightness($color);
+    $light-text-brightness: sf-color-brightness($light);
+    $dark-text-brightness: sf-color-brightness($dark);
+
+    @return if(abs($color-brightness - $light-text-brightness) > abs($color-brightness - $dark-text-brightness), $light, $dark);
+  }
+}

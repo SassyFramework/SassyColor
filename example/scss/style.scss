@@ -1,0 +1,85 @@
+@import "bourbon/dist/bourbon";
+
+@import "sassybreakpoint/sassy-breakpoint";
+@import "sassyplaceholder/sassy-placeholder";
+@import "sassycache/sassy-cache";
+@import "../../sassy-color";
+
+@import "variables";
+
+
+
+@include sf-add-p("box"){
+    width: 20%;
+    padding: 10px;
+    margin: 10px;
+    float: left;
+    text-align: center;
+}
+
+.container {
+    @include sf-cache((
+        width: 900px,
+        margin: 0 auto,
+    ));
+
+    section {
+        margin-left: 5%;
+    }
+}
+
+
+$colors-mono: (
+    primary: cs-primary(),
+    secondary: cs-secondary(),
+    tertiary: cs-tertiary(),
+    quadrary: cs-quadrary()
+);
+
+$colors-triad: (
+    primary: cs-primary($cs-scheme:triad),
+    secondary: cs-secondary($cs-scheme:triad),
+    tertiary: cs-tertiary($cs-scheme:triad),
+    quadrary: cs-quadrary($cs-scheme:triad)
+);
+
+// MONO
+@each $class, $color in $colors-mono {
+    .ColorMono-#{$class} {
+        @include sf-use-p("box");
+        @include sf-cache((
+            background: $color,
+            color: sf-color-contrast($color),
+        ));
+    }
+}
+
+
+// TRIAD
+@each $class, $color in $colors-triad {
+    .ColorTriad-#{$class} {
+        @include sf-use-p("box");
+        @include sf-cache((
+            background: $color,
+            color: sf-color-contrast($color),
+        ));
+    }
+}
+
+
+$color-alerts: (
+    color-success: $color-success,
+    color-warning: $color-warning,
+    color-info: $color-info,
+    color-alert: $color-alert,
+);
+
+@each $class, $value in $color-alerts {
+    .#{$class} {
+        @include sf-use-p("box");
+        @include sf-cache((
+            background: $value,
+            color: sf-color-contrast($value),
+        ));
+    }
+}

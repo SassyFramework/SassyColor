@@ -1,0 +1,64 @@
+.ColorMono-primary, .ColorMono-secondary, .ColorMono-tertiary, .ColorMono-quadrary, .ColorTriad-primary, .ColorTriad-secondary, .ColorTriad-tertiary, .ColorTriad-quadrary, .color-success, .color-warning, .color-info, .color-alert {
+  width: 20%;
+  padding: 10px;
+  margin: 10px;
+  float: left;
+  text-align: center;
+}
+.container {
+  width: 900px;
+}
+.container {
+  margin: 0 auto;
+}
+.container section {
+  margin-left: 5%;
+}
+
+.ColorMono-primary, .ColorTriad-primary {
+  background: #E86EA4;
+}
+.ColorMono-primary, .ColorTriad-primary, .ColorTriad-secondary, .ColorTriad-tertiary, .color-success, .color-warning, .color-info {
+  color: #000;
+}
+
+.ColorMono-secondary {
+  background: #91174d;
+}
+.ColorMono-secondary, .ColorMono-tertiary, .ColorMono-quadrary, .ColorTriad-quadrary, .color-alert {
+  color: #fff;
+}
+
+.ColorMono-tertiary {
+  background: #bc4278;
+}
+
+.ColorMono-quadrary, .ColorTriad-quadrary {
+  background: #ff0071;
+}
+
+.ColorTriad-secondary {
+  background: #6ee1e8;
+}
+
+.ColorTriad-tertiary {
+  background: #6ee875;
+}
+
+.color-success {
+  background: #43AC6A;
+}
+
+.color-warning {
+  background: #F08A24;
+}
+
+.color-info {
+  background: #A0D3E8;
+}
+
+.color-alert {
+  background: #F04124;
+}
+
+/*# sourceMappingURL=style.css.map */

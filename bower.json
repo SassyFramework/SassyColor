@@ -1,0 +1,35 @@
+{
+  "name": "SassyColor",
+  "version": "0.0.1",
+  "authors": [
+    "johngerome <johngerome@gmail.com>"
+  ],
+  "description": "Color Toolkit for Sass",
+  "main": "_sassy-color.scss",
+  "keywords": [
+    "sass",
+    "sassy",
+    "sassy framework",
+    "color",
+    "schemer"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "sassybreakpoint": "latest",
+    "sassyplaceholder": "latest",
+    "sassycache": "latest",
+    "bourbon": "latest",
+    "sassy-maps": "latest",
+    "color-schemer": "latest"
+  },
+  "devDependencies": {
+    "neat": "latest"
+  }
+}
